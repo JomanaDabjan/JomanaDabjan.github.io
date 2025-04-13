@@ -1,12 +1,212 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=
-  , initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <p>Hiiiiiii</p>
-  <span>testing</span>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sayeara Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/style.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="./images/logo.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav" id="menu">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Company</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cars.html">Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tickets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Booking</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown link
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main_slider">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="slide">
+            <img src="./images/car1.jpg" />
+            <div class="heading" data-aos="fade-down">
+              <h6>Seasonal</h6>
+              <h1>promotional</h1>
+            </div>
+            <div class="text" data-aos="fade-up">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                placeat consectetur laborum eligendi ad
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slide">
+            <img src="./images/car2.jpg" />
+            <div class="heading" data-aos="fade-down">
+              <h6>Seasonal</h6>
+              <h1>promotional</h1>
+            </div>
+            <div class="text" data-aos="fade-up">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                placeat consectetur laborum eligendi ad
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container services py-5">
+      <div class="row">
+        <div class="col-md-6 d-flex align-items-center">
+          <div class="head_ser">
+            <h4>Best</h4>
+            <h1>services</h1>
+          </div>
+        </div>
+        <div class="col-md-6 list">
+          <div class="row list_serv">
+            <div class="col-md-3"><img src="./images/c1.png" /></div>
+            <div class="col-md-9 list-text">
+              <h3>Conective</h3>
+              <h2>
+                Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consectetur.
+              </h2>
+            </div>
+          </div>
+          <div class="row list_serv">
+            <div class="col-md-3"><img src="./images/c3.png" /></div>
+            <div class="col-md-9 list-text">
+              <h3>The Best way</h3>
+              <h2>
+                Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consectetur.
+              </h2>
+            </div>
+          </div>
+          <div class="row list_serv">
+            <div class="col-md-3"><img src="./images/c2.png" /></div>
+            <div class="col-md-9 list-text">
+              <h3>Save Money</h3>
+              <h2>
+                Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consectetur.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row py-5">
+        <div class="col-md-6 d-flex flex-column align-items-start">
+          <div class="head_dest">
+            <h4>Our</h4>
+            <h1>Destinations</h1>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            quia sapiente facere quo dolorum natus quis eaque inventore
+            temporibus doloremque! Necessitatibus qui cupiditate dolores
+            similique architecto ullam repellat alias nobis.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="./images/car3.jpg" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      AOS.init();
+    </script>
+    <script src="./css/main.js"></script>
+  </body>
 </html>
